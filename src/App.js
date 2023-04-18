@@ -60,25 +60,25 @@ function App() {
           <div className="Field">
             <label>
               Last Name <sup>*</sup>
-              <input
+            </label>
+            <input
                 value={lastName}
                 onChange={(e) => {
                   setLastName(e.target.value)
                 }}
                 placeholder="Last Name"
               />
-            </label>
           </div>
-          <div classname="Field">
-            <label>
-              Email <sup>*</sup>
-            </label>
-            <input value={email}
-              onChange= {(e) => {
-                setEmail(e.target.value)
-              }}
-              placeholder="Email Address"
-            />
+          <div className="Field">
+           <label>
+             Email <sup>*</sup>
+           </label>
+             <input value={email}
+               onChange= {(e) => {
+               setEmail(e.target.value)
+               }}
+               placeholder="Email Address"
+             />
           </div>
           <div className="Field">
               <label>
